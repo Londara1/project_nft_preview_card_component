@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8"/>
+    <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="icon" type="image.png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0D192C;
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .fdiv {
+            width: 350px;
+            background-color:  #15263F;
+            border-radius: 15px;
+            margin: auto;
+            padding: 24px;
+        }
+
+        .bigimage {
+            max-width: 100%;
+            display: flex;
+            margin: auto;
+            border-radius: 8px;
+        }
+
+        .heading {
+            color: #FFFFFF;
+            margin-top: 24px;
+            font-family: "Outfit";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 28px;
+        }
+
+        p.about {
+            font-family: 'Outfit';
+            color: #8BACD9;
+            font-size: 18px;
+            margin-top: 16px;
+            line-height: 26px;
+            font-weight: 300;
+
+        }
+
+        .container {
+            display: flex;
+            gap: 8px;
+            justify-content: space-between;
+        }
+
+        .ethimage {
+            width: 11px;
+            margin-top: 25px;
+        }
+
+        p.ethquantity {
+            color: #00FFF8;
+            font-family: "Outfit";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            font: bold;
+            margin-top: 24px;
+        }
+
+        .clockimage {
+            width: 13px;
+            margin-top: 24px;
+        }
+
+        p.deadline {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            margin-top: 24px;
+            color: #8BACD9;
+        }
+
+        .divspace {
+            display: flex;
+        }
+
+        .divline {
+            height: 1px;
+            background-color: #2E405A;
+            margin-top: 24px;
+        }
+
+        .lastdiv {
+            display: flex;
+        }
+
+        .avatar {
+            width: 33px;
+            margin-top: 16px;
+            border-radius: 35px;
+            border: 1px  solid #ffffff;
+        }
+
+        p.bottomtext {
+            font-family: 'Outfit';
+            color: #8BACD9;
+            font-weight: 400px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            margin-top: 24px;
+            margin-left: 16px;
+
+        }
+
+        span {
+            color: #FFFFFF;
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+
+    <div class="fdiv">
+        <img class="bigimage" src="./images/image-equilibrium.jpg"/>
+        <h1 class="heading">Equilibrium #3429</h1>
+        <p class="about">Our Equilibrium collection promotes balance and calm.</p>
+
+        
+        <div class="container">
+            <div class="container">
+                <img class="ethimage" src="./images/icon-ethereum.svg"/>
+                <p class="ethquantity">0.0041 ETH</p>
+            </div>
+
+            <div class="container">
+                <img class="clockimage" src="./images/icon-clock.svg"/>
+                <p class="deadline">3 days left</p>
+            </div>
+
+        </div>
+
+        <div class="divline">
+        </div>
+
+        <div class="lastdiv">
+            <img class="avatar" src="./images/image-avatar.png"/>
+            <p class="bottomtext">Creation of <span>Jules Wyvern</span></p>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
